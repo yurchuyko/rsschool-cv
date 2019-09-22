@@ -35,6 +35,37 @@ like to develop and learn new technologies, I study easily and work hard, respon
                     <li>Intermediate English</li>
                 </ul>
             </section>
+            <section>
+                <h2>Code example</h2>
+                <pre>
+                    <code>
+let header = document.getElementById("header");
+let headerHeight = document.getElementById("header").offsetHeight;
+function scroll() {
+    if (document.documentElement.scrollTop > headerHeight) {
+        header.classList.add('fixed');
+    } else {
+        header.classList.remove('fixed');
+    }
+};
+window.addEventListener('scroll', scroll);
+openMenu.onclick = function() {
+    menu.classList.toggle("active");
+}
+                    </code>
+                </pre>
+            </section>
+            <section>
+                <h2>Experience</h2>
+                <p>I don`t have commercial experience, but I have projects from courses and coding tests.</p>
+            </section>
+            <section>
+                <h2>Education</h2>
+                <ul>
+                    <li>2015-2019, Zaporizhzhya National Technical University, Faculty of Electrical Engineering, red bachelor's degree</li>
+                    <li>In 2019, completed with honors JavaScript / CSS / HTML courses (web development basics) at SkillsUp and received a certificate</li>
+                </ul>
+            </section>
         </main>
     </div>
 </body>
