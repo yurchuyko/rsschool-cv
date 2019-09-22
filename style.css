@@ -17,6 +17,10 @@
       display: block;
   }
 
+  body {
+      background-color: #f5eded;
+  }
+
   .container {
       max-width: 1040px;
       margin: 0 auto;
@@ -26,7 +30,7 @@
       display: flex;
       align-items: center;
       height: 250px;
-      background-color: aquamarine;
+      background-color: #91bbe8;
   }
 
   .photo {
@@ -69,4 +73,32 @@
 
   header h4:first-of-type {
       margin-bottom: 5px;
+  }
+
+  main {
+      padding: 30px 0;
+  }
+
+  section {
+      padding: 20px 70px;
+      margin-bottom: 20px;
+  }
+
+  h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+  }
+
+  p {
+      font-size: 1.2em;
+      margin-left: 15px;
+  }
+
+  ul {
+      margin-left: 40px;
+  }
+
+  li:not(last-child) {
+      margin-bottom: 5px;
+
   }
