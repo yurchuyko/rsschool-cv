@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML, CSS & Git Basics Taskg</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="photo">
+                <img src="img/img.jpg" alt="It's me">
+            </div>
+            <div>
+                <h1>Yurii Chuiko</h1>
+                <h4>urchuyko@gmail.com</h4>
+                <h4>+38(050)-366-1769</h4>
+            </div>
+        </header>
+        <main>
+            <section>
+                <h2>Sumary</h2>
+                <p>I have a great desire to finish RSSchool courses and start a Front-end Developer career, improve my skills in a friendly team and, in general, connect my life with programming.
+like to develop and learn new technologies, I study easily and work hard, responsible.</p>
+            </section>
+            <section>
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML5/CSS3</li>
+                    <li>JavaScript</li>
+                    <li>jQuery</li>
+                    <li>Git</li>
+                    <li>Intermediate English</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Code example</h2>
+                <pre>
+                    <code>
+let header = document.getElementById("header");
+let headerHeight = document.getElementById("header").offsetHeight;
+function scroll() {
+    if (document.documentElement.scrollTop > headerHeight) {
+        header.classList.add('fixed');
+    } else {
+        header.classList.remove('fixed');
+    }
+};
+window.addEventListener('scroll', scroll);
+openMenu.onclick = function() {
+    menu.classList.toggle("active");
+}
+                    </code>
+                </pre>
+            </section>
+            <section>
+                <h2>Experience</h2>
+                <p>I don`t have commercial experience, but I have projects from courses and coding tests.</p>
+            </section>
+            <section>
+                <h2>Education</h2>
+                <ul>
+                    <li>2015-2019, Zaporizhzhya National Technical University, Faculty of Electrical Engineering, red bachelor's degree</li>
+                    <li>In 2019, completed with honors JavaScript / CSS / HTML courses (web development basics) at SkillsUp and received a certificate</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
