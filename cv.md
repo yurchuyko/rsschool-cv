@@ -28,3 +28,6 @@ openMenu.onclick = function() {
 ```
 ## Experience
 I don`t have commercial experience, but I have projects from courses and coding tests.
+## Education
+* 2015-2019, Zaporizhzhya National Technical University, Faculty of Electrical Engineering, red bachelor's degree
+* In 2019, completed with honors JavaScript / CSS / HTML courses (web development basics) at SkillsUp and received a certificate
