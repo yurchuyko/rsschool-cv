@@ -9,6 +9,7 @@ I like to develop and learn new technologies, I study easily and work hard, resp
 * JavaScript
 * jQuery
 * Git
+* Intermediate English
 ## Code example
 ```javascript
 let header = document.getElementById("header");
@@ -25,3 +26,5 @@ openMenu.onclick = function() {
 	menu.classList.toggle("active");
 }
 ```
+## Experience
+I don`t have commercial experience, but I have projects from courses and coding tests.
